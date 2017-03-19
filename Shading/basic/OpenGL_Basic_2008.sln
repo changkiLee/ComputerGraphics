@@ -1,0 +1,38 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "glewlib", "..\glew\glewlib_2008.vcproj", "{05FFADE4-2B93-C899-00CA-AA717CA7A077}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "24_bump_map_torus", "24_bump_map_torus\24_bump_map_torus_2008.vcproj", "{66E5D7D0-E7C1-2363-005D-231F91A87848}"
+	ProjectSection(ProjectDependencies) = postProject
+		{05FFADE4-2B93-C899-00CA-AA717CA7A077} = {05FFADE4-2B93-C899-00CA-AA717CA7A077}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05FFADE4-2B93-C899-00CA-AA717CA7A077}.Debug|Win32.ActiveCfg = Debug|Win32
+		{05FFADE4-2B93-C899-00CA-AA717CA7A077}.Debug|Win32.Build.0 = Debug|Win32
+		{05FFADE4-2B93-C899-00CA-AA717CA7A077}.Debug|x64.ActiveCfg = Debug|x64
+		{05FFADE4-2B93-C899-00CA-AA717CA7A077}.Debug|x64.Build.0 = Debug|x64
+		{05FFADE4-2B93-C899-00CA-AA717CA7A077}.Release|Win32.ActiveCfg = Release|Win32
+		{05FFADE4-2B93-C899-00CA-AA717CA7A077}.Release|Win32.Build.0 = Release|Win32
+		{05FFADE4-2B93-C899-00CA-AA717CA7A077}.Release|x64.ActiveCfg = Release|x64
+		{05FFADE4-2B93-C899-00CA-AA717CA7A077}.Release|x64.Build.0 = Release|x64
+		{66E5D7D0-E7C1-2363-005D-231F91A87848}.Debug|Win32.ActiveCfg = Debug|Win32
+		{66E5D7D0-E7C1-2363-005D-231F91A87848}.Debug|Win32.Build.0 = Debug|Win32
+		{66E5D7D0-E7C1-2363-005D-231F91A87848}.Debug|x64.ActiveCfg = Debug|x64
+		{66E5D7D0-E7C1-2363-005D-231F91A87848}.Debug|x64.Build.0 = Debug|x64
+		{66E5D7D0-E7C1-2363-005D-231F91A87848}.Release|Win32.ActiveCfg = Release|Win32
+		{66E5D7D0-E7C1-2363-005D-231F91A87848}.Release|Win32.Build.0 = Release|Win32
+		{66E5D7D0-E7C1-2363-005D-231F91A87848}.Release|x64.ActiveCfg = Release|x64
+		{66E5D7D0-E7C1-2363-005D-231F91A87848}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
