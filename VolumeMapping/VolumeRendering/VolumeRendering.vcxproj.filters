@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Volume">
+      <UniqueIdentifier>{42112cca-2195-4c09-82f3-ca27c3060567}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{b34cd54d-7c2d-4ac2-b137-108eac6bf75f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenGL">
+      <UniqueIdentifier>{9fe0a898-0950-4a4b-88f3-44c83c046cd0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="marching.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="dvTrackball.cpp">
+      <Filter>OpenGL</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dvVolumeData.h">
+      <Filter>Volume</Filter>
+    </ClInclude>
+    <ClInclude Include="dvCommon.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="dvMarchingCube.h">
+      <Filter>Volume</Filter>
+    </ClInclude>
+    <ClInclude Include="dvMarchingTable.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="dvTrackball.h">
+      <Filter>OpenGL</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dvVolumeData.inl">
+      <Filter>Volume</Filter>
+    </None>
+    <None Include="dvMarchingCube.inl">
+      <Filter>Volume</Filter>
+    </None>
+  </ItemGroup>
+</Project>
